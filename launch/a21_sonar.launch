@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="a21_sonar" type="sonar" name="sonar" output="screen">
+        <param name="port" value="/dev/ttyUSB0"/>
+        <param name="baud" value="115200"/>
+        <param name="frame_id" value="rangeL"/>
+        <param name="min_range" value="0.03"/>
+        <param name="max_range" value="2.0"/>
+    </node>
+</launch>
