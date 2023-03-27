@@ -1,7 +1,7 @@
 # A21 sonar range ros
 
 ros driver for the A21 ultrasonic sensor in controlled UART mode.
-![sensor](https://github.com/JosefGst/a21_sonar_ros/blob/master/assets/ultrasonic_sensor.png)
+![sensor](https://github.com/JosefGst/a21_sonar/blob/master/assets/ultrasonic_sensor.jpg)
 
 ## install
 
