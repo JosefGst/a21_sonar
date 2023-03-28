@@ -3,7 +3,10 @@
 ros driver for the A21 ultrasonic sensor in controlled UART mode.
 
 <!-- ![sensor](https://github.com/JosefGst/a21_sonar/blob/master/assets/ultrasonic_sensor.jpg) -->
-<img src="https://github.com/JosefGst/a21_sonar/blob/master/assets/wiring.jpeg" alt="wiring" width="50%" title="test">
+
+[sensor](https://github.com/JosefGst/a21_sonar/blob/master/assets/wiring.jpeg)
+
+<!-- <img src="https://github.com/JosefGst/a21_sonar/blob/master/assets/wiring.jpeg" alt="wiring" title="test"> -->
 
 ## install
 
