@@ -10,6 +10,7 @@ ros driver for the A21 ultrasonic sensor in controlled UART mode.
 
 ## install
 
+    cd a21_sonar
     vcs import .. < my.repos
 
 ## usage
