@@ -15,6 +15,22 @@ int main(int argc, char **argv)
     float min_range, max_range, field_of_view;
     int baud, radiation_type;
 
+    // load parameters, inspired form: https://github.com/ros-planning/navigation_experimental/blob/noetic-devel/twist_recovery/src/twist_recovery.cpp
+    // TODO: test it
+    // bool found = true;
+    // found = found && nh.getParam("/a21_sonar/port", port);
+    // found = found && nh.getParam("/a21_sonar/baud", baud);
+    // found = found && nh.getParam("/a21_sonar/frame_id", frame_id);
+    // found = found && nh.getParam("/a21_sonar/radiation_type", radiation_type);
+    // found = found && nh.getParam("/a21_sonar/field_of_view", field_of_view);
+    // found = found && nh.getParam("/a21_sonar/min_range", min_range);
+    // found = found && nh.getParam("/a21_sonar/max_range", max_range);
+    // if (!found)
+    // {
+    //     ROS_FATAL_STREAM("Didn't find a21_sonar parameters in " << nh.getNamespace());
+    //     ros::shutdown();
+    // }
+
     if (ros::param::has("/a21_sonar/port"))
         ros::param::get("/a21_sonar/port", port);
     else
